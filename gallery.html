@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Sanjalika Water Park</title>
+  <meta name="description" content="Explore photos and scenic views of Sanjalika Water Park: illuminated mermaid statues, the largest modern cave river, tsunami wave pool, and thrilling slides.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <div class="top-bar-item">
+        <span class="status-badge"><span class="status-dot"></span> Open Today: 10:00 AM - 6:00 PM</span>
+        <span style="font-size: 0.8rem; opacity: 0.85;">| High-Definition Park Visuals & Theme Moments</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="location.html">📍 Coastal Highway, Adventure Bay</a>
+        <a href="tel:+919876543210">📞 +91 98765 43210</a>
+        <a href="contact.html">Help Desk</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-wrapper" title="Sanjalika Water Park - Return to Home">
+        <svg class="logo-icon-svg" viewBox="0 0 64 64" fill="none">
+          <circle cx="32" cy="32" r="30" fill="url(#logoGradGal)" />
+          <path d="M12 40C16 36 20 44 24 40C28 36 32 44 36 40C40 36 44 44 48 40C52 36 56 40 56 40V52C56 52 46 54 32 54C18 54 8 52 8 52V40C8 40 10 42 12 40Z" fill="#38bdf8" fill-opacity="0.8"/>
+          <path d="M38 16C38 18.2 36.2 20 34 20C31.8 20 30 18.2 30 16C30 13.8 31.8 12 34 12C36.2 12 38 13.8 38 16Z" fill="#fef08a"/>
+          <path d="M33 21C30 22 28 25 28 29C28 34 32 37 32 41C32 44 26 47 22 46C20 45.5 19 43 19 43C19 43 22 49 28 49C35 49 37 43 37 38C37 33 33 30 33 27C33 24 35 22 36 22L33 21Z" fill="#fef08a"/>
+          <defs>
+            <linearGradient id="logoGradGal" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#0284c7"/>
+              <stop offset="1" stop-color="#0d9488"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-title">SANJALIKA</span>
+          <span class="logo-subtitle">WATER PARK</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="primaryNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="rides.html" class="nav-link">Rides & Slides</a>
+        <a href="park-info.html" class="nav-link">Park Information</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="food-zone.html" class="nav-link">Food Zone</a>
+        <a href="facilities.html" class="nav-link">Facilities</a>
+        <a href="location.html" class="nav-link">Location Map</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="booking.html" class="btn-book-nav">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"/></svg>
+          Book Tickets
+        </a>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <div style="background: linear-gradient(135deg, #0c4a6e, #0369a1); color: #ffffff; padding: 45px 20px; text-align: center;">
+    <div class="container">
+      <div style="font-size: 0.85rem; color: #7dd3fc; margin-bottom: 8px;">
+        <a href="index.html" style="color: #bae6fd;">Home</a> &nbsp;/&nbsp; Photo Gallery
+      </div>
+      <h1 style="font-size: 2.6rem; font-weight: 800; margin-bottom: 10px;">Sanjalika Visual Gallery</h1>
+      <p style="max-width: 700px; margin: 0 auto; color: #e0f2fe; font-size: 1.05rem;">
+        Take a glimpse into the wonder, splash thrills, mermaid statues, and cave spectacles. Click any image to view in high definition.
+      </p>
+    </div>
+  </div>
+
+  <!-- Gallery Filter & Grid -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="rides-filter">
+        <button class="filter-btn active" data-filter="all">All Photos (12)</button>
+        <button class="filter-btn" data-filter="rides">Thrill Rides & Slides</button>
+        <button class="filter-btn" data-filter="cave">Mermaids & Cave</button>
+        <button class="filter-btn" data-filter="pools">Wave & Swimming Pools</button>
+        <button class="filter-btn" data-filter="food">Food & Dining</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Photo 1: Extreme Slide -->
+        <div class="gallery-item" data-category="rides">
+          <img src="https://images.unsplash.com/photo-1582650625119-3a31f8418b7d?auto=format&fit=crop&w=800&q=80" 
+               alt="The Mermaid's Abyss giant funnel flume slide at Sanjalika Water Park" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>The Mermaid's Abyss Tornado Slide</h4>
+            <p>Our 60ft vortex funnel slide in action</p>
+          </div>
+        </div>
+
+        <!-- Photo 2: Cave & Lagoon -->
+        <div class="gallery-item" data-category="cave">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" 
+               alt="The Great Mystical Cave River illuminated subterranean water cave" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>The Great Mystical Cave</h4>
+            <p>Largest modern cave river with stalactites</p>
+          </div>
+        </div>
+
+        <!-- Photo 3: Wave Pool -->
+        <div class="gallery-item" data-category="pools">
+          <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80" 
+               alt="Aqua Tsunami massive wave pool with simulated ocean breakers" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Aqua Tsunami Wave Pool</h4>
+            <p>2.5-meter ocean swell breakers every 15 min</p>
+          </div>
+        </div>
+
+        <!-- Photo 4: Speed Drop -->
+        <div class="gallery-item" data-category="rides">
+          <img src="https://images.unsplash.com/photo-1520255870062-bd79d3865de7?auto=format&fit=crop&w=800&q=80" 
+               alt="Poseidon's Thunder Drop 80ft vertical freefall speed slide tower" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Poseidon's Thunder Drop</h4>
+            <p>Vertical launch capsule at 65 km/h</p>
+          </div>
+        </div>
+
+        <!-- Photo 5: Olympic Pool -->
+        <div class="gallery-item" data-category="pools">
+          <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80" 
+               alt="Olympic Deep Swimming Lagoon with crystal clear modern technology ozonated water" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Olympic Deep Swimming Lagoon</h4>
+            <p>Modern German ozonated filtration system</p>
+          </div>
+        </div>
+
+        <!-- Photo 6: Kids Fortress -->
+        <div class="gallery-item" data-category="cave">
+          <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" 
+               alt="Mermaid Lagoon & Splash Fortress interactive kids water playground" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Mermaid Lagoon & Splash Fortress</h4>
+            <p>Tipping bucket and interactive mini slides</p>
+          </div>
+        </div>
+
+        <!-- Photo 7: Mat Racer -->
+        <div class="gallery-item" data-category="rides">
+          <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80" 
+               alt="Kraken's Multi-Racer 6-lane head first mat racing slide" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Kraken's Multi-Racer (6 Lanes)</h4>
+            <p>High speed head-first competition with timers</p>
+          </div>
+        </div>
+
+        <!-- Photo 8: Food Zone Dining -->
+        <div class="gallery-item" data-category="food">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" 
+               alt="Mermaid Cove Buffet Restaurant food zone dining hall" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Mermaid Cove Family Buffet</h4>
+            <p>Multi-cuisine dining area and seating lounge</p>
+          </div>
+        </div>
+
+        <!-- Photo 9: Delicacies & Juices -->
+        <div class="gallery-item" data-category="food">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" 
+               alt="Fresh gourmet burgers and fries served at Sanjalika Splash Cafe" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Splash Burger & Snack Shack</h4>
+            <p>Delicious gourmet refreshments and cool beverages</p>
+          </div>
+        </div>
+
+        <!-- Photo 10: Swirling Bowl Slide -->
+        <div class="gallery-item" data-category="rides">
+          <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80" 
+               alt="Cyclone Space Bowl vortex swirl flume slide" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>The Cyclone Space Bowl</h4>
+            <p>Centrifugal wall vortex into splash pool</p>
+          </div>
+        </div>
+
+        <!-- Photo 11: Relaxing Cabanas -->
+        <div class="gallery-item" data-category="pools">
+          <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80" 
+               alt="VIP luxury poolside cabana with palm trees and lounge chairs" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Luxury Poolside VIP Cabanas</h4>
+            <p>Private shaded lounges with beverage services</p>
+          </div>
+        </div>
+
+        <!-- Photo 12: Night Illuminations -->
+        <div class="gallery-item" data-category="cave">
+          <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" 
+               alt="Night lighting and illuminated statues at Sanjalika Water Park" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Mystical Evening Illumination</h4>
+            <p>Fiber optic lights and mermaid glow effects</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <img src="" alt="" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 style="color: #fff; margin-bottom: 15px; font-size: 1.3rem;">Sanjalika Water Park</h3>
+        <p>The ultimate and out-of-the-world source of entertainment with the largest cave and swimming pool area of modern technology.</p>
+        <div class="footer-timing-badge">
+          <strong>⏱️ Park Timings:</strong>
+          <span>Open Everyday: 10:00 AM – 6:00 PM</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">→ Home</a></li>
+          <li><a href="about.html">→ About Us</a></li>
+          <li><a href="rides.html">→ Rides & Slides</a></li>
+          <li><a href="gallery.html">→ Photo Gallery</a></li>
+          <li><a href="food-zone.html">→ Food Zone</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Guest Information</h4>
+        <ul class="footer-links">
+          <li><a href="park-info.html">→ Park Information</a></li>
+          <li><a href="facilities.html">→ Locker & Facilities</a></li>
+          <li><a href="booking.html">→ Ticket Booking</a></li>
+          <li><a href="location.html">→ Location Map</a></li>
+          <li><a href="contact.html">→ Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Brochure Downloads</h4>
+        <p>Download our visitor information package for free:</p>
+        <button class="btn btn-secondary btn-download-pdf" style="width: 100%; margin-bottom: 8px;">
+          📄 Download PDF Guide
+        </button>
+        <button class="btn btn-secondary btn-download-doc" style="width: 100%;">
+          📝 Download DOC Guide
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 Sanjalika Water Park. All Rights Reserved.</div>
+      <div>Designed for thrilling fun, hygiene, and family entertainment.</div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to Top">
+    <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
